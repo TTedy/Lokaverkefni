@@ -1,0 +1,51 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+a{
+   color: rgb(207, 108, 15)
+}
+.db1{
+    background-color: #333333;
+}
+
+.db2{
+    background-color: #FFFFFF;
+}
+.db3{
+    background-color:  #000000BD;
+}
+
+.logo{
+    
+}
+
+/*
+--e-global-color-primary: #FFFFFF;
+--e-global-color-secondary: #FF4B0A;
+--e-global-color-text: #FFFFFF;
+--e-global-color-accent: #FF0246;
+--e-global-color-c40f6d3: #000000;
+--e-global-color-12f9b18: #FF4B0A;
+--e-global-color-b416dec: #FF0046;
+--e-global-color-7008e7a: #FFEB00;
+--e-global-color-3c8f2bf: #FFFFFF;
+--e-global-color-7807719: #000000BD;
+--e-global-color-0cce5cb: #FFFFFFB3;
+--e-global-color-af8bfb7: #F7F7F7;
+--e-global-color-e094f8a: #ADADAD;
+--e-global-color-ec38f99: #777777;
+--e-global-color-7c06ee6: #333333;
+*/
+
+
+
+
+ /* Tablet menu */
+ @media all and (min-width: 700px) {
+  }
+  /* Desktop menu */
+  @media all and (min-width: 960px) {
+
+  }

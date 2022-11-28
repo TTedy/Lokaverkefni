@@ -1,0 +1,106 @@
+/* Basic styling */
+
+.menu{
+    list-style-type: none;
+    font-family: "Sharp Grotesk", Sans-serif;;
+  }
+  .item {
+    padding: 10px;
+  }
+  .item.mbutton {
+    padding: 9px 5px;
+  }
+  .item:not(.mbutton) a:hover,
+  .item a:hover::after {
+    color: rgb(207, 108, 15);
+  }
+  /* Mobile menu */
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: right;
+  }
+  .menu li a {
+    display: block;
+  }
+  .menu li {
+    padding: 15px;
+  }
+  .toggle {
+    order: 1;
+    font-size: 20px;
+  }
+  .item.mbutton {
+    order: 2;
+  }
+  .item {
+    order: 3;
+    width: 100%;
+    text-align: center;
+    display: none;
+  }
+  .active .item {
+    display: block;
+  }
+  
+  /* Tablet menu */
+  @media all and (min-width: 700px) {
+    .menu {
+      justify-content: center;
+    }
+    .logo {
+      flex: 1;
+    }
+    .item.mbutton {
+      width: auto;
+      order: 1;
+      display: block;
+    }
+    .toggle {
+      flex: 1;
+      text-align: right;
+      order: 2;
+      color: rgb(207, 108, 15);
+      display: grid;
+    }
+    /* Button up from tablet screen */
+    .mbutton a {
+      background: rgb(207, 108, 15);
+    }
+    .mbutton.secondary {
+      border: 0;
+    }
+    .mbutton.secondary a {
+      background: transparent;
+    }
+    .mbutton a:hover {
+      text-decoration: none;
+    }
+    .mbutton:not(.secondary) a:hover {
+      background: rgb(207, 108, 15);
+    }
+  }
+  /* Desktop menu */
+  @media all and (min-width: 960px) {
+    .menu {
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      background: none;
+    }
+    .logo {
+      order: 0;
+    }
+    .item {
+      order: 1;
+      position: relative;
+      display: block;
+      width: auto;
+    }
+    .mbutton {
+      order: 2;
+    }
+    .toggle {
+      display: none;
+    }
+  }
