@@ -38,3 +38,7 @@ Forsíða (index) - stutt lýsing á hvað á að vera á forsíðunni  <br>
 
 ![alt text](https://media.discordapp.net/attachments/770413099111022625/1044265329649516604/Wireframe.png?width=1440&height=655)
 
+## Prototype
+
+!![alt text](https://media.discordapp.net/attachments/1011231279343222794/1046577883096813688/Group_2.png?width=1157&height=676)
+
