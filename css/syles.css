@@ -13,14 +13,14 @@ a{
    text-decoration: none;
 }
 .db1{
-    background-color: #000000;
+    background: #000000;
 }
 
 .db2{
-    background-color: #FFFFFF;
-}
+    background: #FFFFFF;
+}                                   
 .db3{
-    background-color:  #0d0d0d;
+    background:  #0d0d0d;
 }
 
 
@@ -97,8 +97,12 @@ h2 small {
 .div3{
     height: 13em;
 }
+.div4{
+    height: 45em;
+}
 
 .hero-image1 {
+    position: relative;
     background-color: #000000;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(/images/HeroWarp-1.png);
     background-position: top center;
@@ -128,12 +132,16 @@ h2 small {
     padding: 0.5em;
 }
 
+.midja{
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+}
 
 
 
 
-
-
+/*
 .videoplater{
     position: absolute;
     right: 0px;
@@ -143,7 +151,7 @@ h2 small {
     width: auto;
     height: auto;
 }
-
+*/
 
 
 

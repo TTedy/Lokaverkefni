@@ -1,9 +1,12 @@
 /* Basic styling */
 
 .menu{
+    position: absolute;
     list-style-type: none;
     font-family: "Sharp Grotesk", Sans-serif;;
     z-index:2;
+    background: #000000;
+    width: 100%;
   }
   .item {
     padding: 10px;
@@ -22,6 +25,7 @@
     justify-content: space-between;
     align-items: right;
     padding-bottom: 20px;
+
   }
   .menu li a {
     display: block;
