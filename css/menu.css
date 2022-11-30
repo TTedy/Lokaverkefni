@@ -3,6 +3,7 @@
 .menu{
     list-style-type: none;
     font-family: "Sharp Grotesk", Sans-serif;;
+    z-index:2;
   }
   .item {
     padding: 10px;
@@ -20,6 +21,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: right;
+    padding-bottom: 20px;
   }
   .menu li a {
     display: block;
