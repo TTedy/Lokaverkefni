@@ -103,7 +103,7 @@
       align-items: flex-start;
       flex-wrap: nowrap;
       background: none;
-      width: 100%;
+      width: 97%;
     }
     .logo {
       order: 0;
@@ -119,5 +119,8 @@
     }
     .toggle {
       display: none;
+    }
+    a.mbutton:hover{
+      border-bottom: 2px solid #FF4B0A;
     }
   }
