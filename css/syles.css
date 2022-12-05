@@ -106,6 +106,9 @@ h2 small {
 .div5{
     height: 16em;
 }
+.div6{
+    height: 7em;
+}
 
 
 .move{
@@ -220,26 +223,6 @@ h2 small {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ----------------------------------------------------------------------- */
 
 .feedback-input {
@@ -290,6 +273,164 @@ h2 small {
   [type="submit"]:hover { background:#FF4B0A; }
 
 /* ----------------------------------------------------------------------- */
+
+
+
+
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 0.5em;
+    grid-gap: 0;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+
+.boxi{
+    background-color: #FF0246;
+    border-radius: 5px 5px;
+    line-height: 1.6;
+}
+
+
+.midp{
+    font-size: 21px;
+    text-align: center;
+}
+
+.smalp{
+    font-size: 11px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.gridi1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0.5em;
+}
+
+.gridi2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+
+.downpush{
+    margin-top: 0.5em;
+}
+
+.col-6-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+}
+
+.kassia{
+}
+
+.kassid{
+    width: 270px !important;
+    height: 75px;
+    position: relative;
+    background-color: #0d0d0d;
+    padding: 10px;
+    border-top: solid 1px #2c2c2c;
+    border-left: solid 1px #2c2c2c;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    color: #444;
+    justify-content: center;
+    padding: 0;
+  }
+
+.mt{
+    height: 400px;
+    width: 500px;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+
+.cali-a{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
@@ -348,6 +489,11 @@ h2 small {
  /* Tablet menu */
  @media all and (min-width: 700px) {
 
+    .col-6-2 {
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap:1em;
+      }
+
     .responsive-table .col:before{
         display: none;
     }
@@ -385,8 +531,22 @@ h2 small {
         padding: 0;
         margin-left: 2.5em;
     }
+
+    .
+
+
+
+
+
+
 }
   /* Desktop menu */
   @media all and (min-width: 960px) {
-
+    .col-6f-2 {
+        grid-template-columns: repeat(6, 1fr);
+      }
+      .col-6f {
+        display: grid;
+        row-gap: 1em;
+      }
   }
