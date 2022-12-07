@@ -176,10 +176,14 @@ h2 small {
 }
 
 
+.rem{
+    /*visibility: hidden;*/
+    display:none !important; 
+    visibility:hidden !important;
+}
 
 
 
-.main{}
 
 .place244{
   bottom: 30%;
@@ -385,7 +389,10 @@ div.scrollmenu {
 
 
 
-
+.col-2-2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 
 
@@ -488,6 +495,17 @@ div.scrollmenu {
 
  /* Tablet menu */
  @media all and (min-width: 700px) {
+    .col-2-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }  
+
+
+
+    .rem{
+        display: block !important; 
+        visibility: visible !important;
+    }
 
     .col-6-2 {
         grid-template-columns: repeat(6, 1fr);
@@ -532,7 +550,6 @@ div.scrollmenu {
         margin-left: 2.5em;
     }
     .move{
-        display: block;
         position: relative;
         margin-top: -7em;
         width:  65%;
