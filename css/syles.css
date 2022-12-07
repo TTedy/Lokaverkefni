@@ -344,9 +344,6 @@ div.scrollmenu {
     row-gap: 1em;
 }
 
-.kassia{
-}
-
 .kassid{    
     min-width: 270px !important;
     height: 75px;
@@ -380,13 +377,6 @@ div.scrollmenu {
 .cali-a{
     padding: 0;
 }
-
-
-
-
-
-
-
 
 
 .col-2-2{
@@ -449,11 +439,7 @@ div.scrollmenu {
         justify-content: center;
         width: 85%;
       }
-
- }
-/* smartphones, Android phones, landscape iPhone */ 
-@media all and (min-width:480px)  {    
-    .responsive-table li {
+      .responsive-table li {
         display: block;
     }
     .responsive-table .col {
@@ -485,10 +471,18 @@ div.scrollmenu {
     li.table-header{
         display: none;
     }
+
+ }
+/* smartphones, Android phones, landscape iPhone */ 
+@media all and (min-width:480px)  {    
     .hero-text{
         font-size: 50%;
         top: 30%;
         padding-top: 2em;
+    }   
+    .col-6-2 {
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap:1em;
     }
 }
 
@@ -507,10 +501,7 @@ div.scrollmenu {
         visibility: visible !important;
     }
 
-    .col-6-2 {
-        grid-template-columns: repeat(6, 1fr);
-        grid-gap:1em;
-      }
+
 
     .responsive-table .col:before{
         display: none;
