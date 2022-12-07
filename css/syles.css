@@ -191,8 +191,6 @@ h2 small {
 }
 
 
-<<<<<<< HEAD
-=======
 .rem{
     /*visibility: hidden;*/
     display:none !important; 
@@ -202,7 +200,6 @@ h2 small {
 
 
 
->>>>>>> abed618eaf546a58bf3cfa23be769ef36bc06604
 .place244{
   bottom: 30%;
 }
@@ -337,6 +334,38 @@ div.scrollmenu {
     text-align: center;
 }
 
+
+
+
+
+
+
+.midp2{
+    color: #000000;
+    font-size: 21px;
+    text-align: left;
+}
+
+
+.smalp2{
+    font-size: 11px;
+    margin-bottom: 0;
+    text-align: left;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .gridi1{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -383,18 +412,20 @@ div.scrollmenu {
 
 .mt{
     max-height: 100%;
-    max-width: 100%;
-<<<<<<< HEAD
-    background-color: #f7f7ff;
-    color: rgb(0, 0, 0);
-=======
-    background-color: #444;
+    max-width: 85%;
+    background-color: #f7f7f7;
     color: #fff;
-    padding: 20px;
->>>>>>> abed618eaf546a58bf3cfa23be769ef36bc06604
     font-size: 150%;
+    place-self: center;
+    margin-top: 1.5em;
+
 }
 
+.stut{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
 
 .cali-a{
     padding: 0;
@@ -412,13 +443,12 @@ div.scrollmenu {
 }
 
 
-<<<<<<< HEAD
-.spaceing{
-    padding-top: 10em;
-    padding-bottom: 10em;
-=======
 .cont{
     padding: 15px;
+}
+
+.cont2{
+    padding: 7.8em;
 }
 
 .title{
@@ -435,7 +465,6 @@ div.scrollmenu {
     color: #ececec;
     padding-top: 10px;
     padding-bottom: 5px;
->>>>>>> abed618eaf546a58bf3cfa23be769ef36bc06604
 }
 
 
@@ -455,11 +484,6 @@ div.scrollmenu {
   }
   [type="submit2"]:hover { background:rgba(0, 0, 0, 0.2); }
 
-<<<<<<< HEAD
-.kassiu{
-    height: 50%;
-}
-=======
 .title3{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 250%;
@@ -477,6 +501,21 @@ div.scrollmenu {
     padding-top: 5px;
 }
 
+[type="submit3"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 50%;
+    background-color: transparent;
+    border:0;
+    cursor:pointer;
+    color:rgb(41, 40, 40);
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit3"]:hover { background:rgba(0, 0, 0, 0.2); }
 
 
 
@@ -492,7 +531,6 @@ div.scrollmenu {
 
 
 
->>>>>>> abed618eaf546a58bf3cfa23be769ef36bc06604
 
 
 
@@ -522,19 +560,7 @@ div.scrollmenu {
         justify-content: center;
         width: 85%;
       }
-<<<<<<< HEAD
-      .col-6-2 {
-        grid-template-columns: repeat(6, 1fr);
-        grid-gap:1em;
-    }
-
- }
-/* smartphones, Android phones, landscape iPhone */ 
-@media all and (min-width:480px)  {    
-    .responsive-table li {
-=======
       .responsive-table li {
->>>>>>> abed618eaf546a58bf3cfa23be769ef36bc06604
         display: block;
     }
     .responsive-table .col {
