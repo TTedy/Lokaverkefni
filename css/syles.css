@@ -100,7 +100,7 @@ h2 small {
     max-width: 100%;
 }
 .div3{
-    height: 13em;
+    height: 50%;
     max-width: 100%;
 }
 .div4{
@@ -108,7 +108,7 @@ h2 small {
     max-width: 100%;
 }
 .div5{
-    height: 16em;
+    height: 25em;
     max-width: 100%;
 }
 .div6{
@@ -368,7 +368,6 @@ div.scrollmenu {
     max-width: 100%;
     background-color: #444;
     color: #fff;
-    border-radius: 5px;
     padding: 20px;
     font-size: 150%;
 }
@@ -390,13 +389,59 @@ div.scrollmenu {
 }
 
 
+.cont{
+    padding: 15px;
+}
+
+.title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 250%;
+    text-align: center;
+    color: #ececec;
+    margin-bottom: -0.5rem;
+    padding-top: 5px;
+}
+
+.textu{
+    font-size: 136%;
+    color: #ececec;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
 
 
+[type="submit2"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 50%;
+    background-color: transparent;
+    border:0;
+    cursor:pointer;
+    color:rgb(255, 255, 255);
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit2"]:hover { background:rgba(0, 0, 0, 0.2); }
 
-
-
-
-
+.title3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250%;
+    text-align: center;
+    color: #222222;
+    margin-bottom: -0.5rem;
+    padding-top: 5px;
+}
+.title4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 85%;
+    text-align: center;
+    color: #222222;
+    margin-bottom: -0.5rem;
+    padding-top: 5px;
+}
 
 
 
@@ -475,6 +520,7 @@ div.scrollmenu {
         display: none;
     }
 
+
  }
 /* smartphones, Android phones, landscape iPhone */ 
 @media all and (min-width:480px)  {    
@@ -489,9 +535,69 @@ div.scrollmenu {
     }
 }
 
+@media all and (min-width:600px){
+    .col-3{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .title2{
+        font-size: 250%;
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+        color: #ececec;
+        margin-bottom: -0.5rem;
+        padding-top: 5px;
+    }
+    
+    .textu2{
+        font-size: 136%;
+        color: #ececec;
+        padding: 30px;
+        margin-left: 0;
+        margin-bottom: 1.5em;
+        padding-bottom: 0;
+    }
+    .contasi{
+        max-width: 100%;
+        max-height: 100%;
+        justify-content: center;
+    }
+
+
+
+}
 
  /* Tablet menu */
  @media all and (min-width: 700px) {
+
+    .title2{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 250%;
+        margin-top: 2em;
+        margin-left: 2em;
+        text-align: left;
+        color: #ececec;
+        margin-bottom: -0.5rem;
+        padding-top: 5px;
+    }
+    
+    .textu2{
+        font-size: 136%;
+        color: #ececec;
+        padding-top: 10px;
+        margin-left: 2.5em;
+        margin-bottom: 1.5em;
+        padding-bottom: 20px;
+    }
+    .contasi{
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+
+
+
     .col-2-2{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -503,8 +609,6 @@ div.scrollmenu {
         display: block !important; 
         visibility: visible !important;
     }
-
-
 
     .responsive-table .col:before{
         display: none;
@@ -546,8 +650,8 @@ div.scrollmenu {
     .move{
         position: relative;
         margin-top: -7em;
-        width:  65%;
-        height: 100%;
+        width:  75%;
+        height: 110%;
         margin-left: 4.5em;
         z-index: 10;
     }
@@ -555,6 +659,9 @@ div.scrollmenu {
 }
   /* Desktop menu */
   @media all and (min-width: 960px) {
+    .col-3{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .col-6f-2 {
         grid-template-columns: repeat(6, 1fr);
     }
@@ -563,9 +670,22 @@ div.scrollmenu {
         row-gap: 1em;
     }
     .move{
-        max-width:  50%;
+        max-width:  75%;
     }
     .move2{
         padding-left: 6em;
     }
   }
+
+  @media all and (min-width: 960px){
+    .move{
+        width: 75%;
+    }
+  }
+
+  @media all and (min-width: 1500px){
+    .move{
+        max-width: 50%;
+    }
+}
+
