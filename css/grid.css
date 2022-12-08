@@ -10,7 +10,6 @@
 .col-6 {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 1em;
 }
 .container {
   padding:1em;
